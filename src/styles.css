@@ -1,0 +1,155 @@
+/*Whole site*/
+h1 {
+  color: grey;
+  text-align: center;
+  font-family: "Petemoss", cursive;
+  font-size: 80px;
+}
+
+body {
+  background-color: #d0afa8;
+}
+
+/*Navigation bar*/
+.banner {
+  width: 300px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.menu {
+  font-family: "Petemoss", cursive;
+  font-size: 50px;
+  color: grey;
+  transition: ease-in-out 5ms;
+
+  padding-right: 20px;
+}
+.menu:hover {
+  color: black;
+}
+.facebook-icon {
+  font-size: 50px;
+  transition: ease-in-out 5ms;
+  color: grey;
+}
+.facebook-icon:hover {
+  color: #3b5998;
+}
+
+/*Home page*/
+.owners {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-us {
+  text-align: center;
+  display: block;
+  max-width: 75%;
+  font-size: 15px;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signature {
+  font-family: "Petemoss", cursive;
+  font-size: 40px;
+}
+
+/*Treatments page*/
+.active-page {
+  color: black;
+}
+.accordion {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.accordion-button {
+  font-family: "Petemoss", cursive;
+  font-size: 40px;
+  color: grey;
+  height: 60px;
+}
+
+.accordion-body {
+  background-color: #d0afa8;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.accordion-button {
+  background-color: #d0afa8;
+}
+
+.accordion-button:not(.collapsed) {
+  color: grey;
+}
+
+.images-banner {
+  text-align: center;
+}
+
+.treatment-image {
+  max-width: 30%;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/*Contact page*/
+
+.container {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.contact-details {
+  max-width: 100%;
+}
+.opening-times {
+  margin-top: 60px;
+  max-width: 100%;
+}
+.opening-times-table {
+  max-width: 215px;
+  line-height: 13px;
+}
+.opening-times-td {
+  max-width: 110px;
+}
+
+.fa-map-marker-alt,
+.fa-phone-alt,
+.fa-envelope {
+  font-size: 30px;
+}
+
+.postal-address,
+.email-address,
+.phone-number {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  color: black;
+}
+.postal-address:hover,
+.email-address:hover,
+.phone-number:hover {
+  color: grey;
+}
+
+form {
+  max-width: 400px;
+  margin: 60px auto;
+}
+
+.submit-button {
+  margin-top: 5px;
+  transition: ease-in-out 100ms;
+}
+.submit-button:hover {
+  background-color: grey;
+  border: 1px solid grey;
+}
